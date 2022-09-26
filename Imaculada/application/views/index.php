@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sou da Imaculada</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+	<header id="evento-descricao">
+		<div id="anuncio">
+			<h2>Sou da Imaculada</h2>
+			<p class="sobre-evento">
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse reiciendis voluptas aliquid voluptatem similique facere officia.
+			</p>
+			<p>Data do Evento:</p>
+			<p class="data-evento">Dias xx, xx e xx de Novembro, a partir das 14h</p>
+		</div>
+		<div id="formulario_inscricao">
+			<p>Preencha o formulário para se inscrever no evento</p>
+			<form action="<?=base_url("Contato");?>" method="post">
+				<div class="form-group">
+					<label for="name">Nome:</label>
+					<input type="text" name="nome" placeholder="Digite seu nome" required>
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="text" name="email" placeholder="Digite seu email" required>
+				</div>
+				<div class="form-group">
+					<label for="telefone">Whatsapp:</label>
+					<input type="text" name="whatsapp" placeholder="Digite seu numero de Whatsapp" required>
+				</div>
+				<input type="submit" class="btn" value="Quero me inscrever">
+			</form>
+		</div>
+	</header>
+	<section id="chave-beneficios">
+		<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+		<div class="beneficios">
+			<div class="beneficio">
+				<div id="beneficio1" class="beneficio-img"></div>	
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, veniam magni? </p>			
+			</div>
+			<div class="beneficio">
+				<div id="beneficio2" class="beneficio-img"></div>	
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, veniam magni? </p>			
+			</div>
+			<div class="beneficio">
+				<div id="beneficio3" class="beneficio-img"></div>	
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, veniam magni? </p>			
+			</div>
+		</div>
+	</section>
+	<section id="local">
+		<div id="endereco">
+			<i class="bi bi-geo-alt-fill"></i>
+			<div id="detalhes-endereco">
+				<p>Rua do Evento, 1333</p>
+				<p>Bairro tal</p>
+				<p>Abertura do Evento</p>
+			</div>
+		</div>
+		<div id="sobre-local">
+			<h3>Local de destaque</h3>
+			<p>
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam veritatis soluta doloribus commodi sit dicta fugiat corporis. Expedita ipsa nobis praesentium, alias quo aliquam dolorum tempore consequuntur voluptas odio neque!
+			</p>
+		</div>
+	</section>
+	<section id="detalhes">
+		<div class="detalhe" id="detalhe-1">
+			<img src="images/hrz-3.jpg" alt="">
+			<div class="detalhe-descricao">
+				<h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </h3>
+			</div>
+		</div>
+		<div class="detalhe" id="detalhe-2">			
+			<div class="detalhe-descricao">
+				<h3>Detalhes</h3>
+				<ul>
+					<li>Detalhe 1</li>
+					<li>Detalhe 2</li>
+					<li>Detalhe 3</li>
+					<li>Detalhe 4</li>
+					<li>Detalhe 5</li>
+				</ul>
+			</div>
+			<img src="images/hrz-4.jpg" alt="">
+		</div>
+		<div class="detalhe" id="detalhe-3">	
+			<img src="images/hrz-5.jpg" alt="">		
+			<div class="detalhe-descricao">
+				<h3>Detalhes</h3>
+				<ul>
+					<li>Detalhe 1</li>
+					<li>Detalhe 2</li>
+					<li>Detalhe 3</li>
+					<li>Detalhe 4</li>
+					<li>Detalhe 5</li>
+				</ul>
+			</div>			
+		</div>
+	</section>
+	<section id="cta">
+		<h3>Gostou ? Então se inscreva:</h3>
+		<button class="btn">Solicitar Inscrição</button>
+	</section>
+	<footer id="footer">
+		<h3>Sou da Imaculada</h3>
+		<p>Lorem ipsum dolor sit a met consectetur adipisicing elit. Beatae, commodi dolor? </p>
+		<p><span>Mais informações: </span> contato@paroquiasantoalbertomagno.org.br</p>
+		<p><span>Ou pelo telefone: </span> (11)99999-9999</p>
+	</footer>
+</body>
+</html>
